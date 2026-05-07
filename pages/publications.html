@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Madhavan Lab</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../images/favicon.png" type="image/png" />
+  <style>
+    .pub-filter {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .pub-filter__btn {
+      padding: 0.4rem 1rem;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      border: 1.5px solid var(--gray-2);
+      border-radius: 2px;
+      background: white;
+      color: var(--gray-4);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .pub-filter__btn:hover,
+    .pub-filter__btn.active {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: var(--gray-1);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__brand">
+      <span class="nav__brand-name">Madhavan Lab</span>
+      <span class="nav__brand-sub">University of Illinois Urbana-Champaign</span>
+    </a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="lab.html">The Lab</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <!-- HERO -->
+  <div class="page-hero">
+    <div class="container fade-up">
+      <span class="tag" style="border-color: rgba(255,255,255,0.3); color: rgba(255,255,255,0.7);">Publications</span>
+      <h1>Publications</h1>
+      <div class="divider"></div>
+      <p>A complete list of publications from the Madhavan Lab. Preprints available on arXiv; published versions linked where accessible.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- External profile links -->
+      <div style="display: flex; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap; align-items: center;">
+        <span style="font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; color: var(--gray-3); text-transform: uppercase;">Also on:</span>
+        <a href="#" class="btn btn--outline" style="font-size: 0.82rem;">Google Scholar</a>
+        <a href="#" class="btn btn--outline" style="font-size: 0.82rem;">ORCID</a>
+        <a href="#" class="btn btn--outline" style="font-size: 0.82rem;">arXiv</a>
+        <a href="#" class="btn btn--outline" style="font-size: 0.82rem;">PubMed</a>
+      </div>
+
+      <!-- ======== 2025 ======== -->
+      <div class="pub-year-group">
+        <span class="pub-year-label">2025</span>
+        <!-- Add each paper as a pub-entry block. Copy/paste to add more. -->
+        <div class="pub-entry">
+          <span class="pub-entry__num">1</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">Paper title goes here — replace with your actual paper title</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, Author B, Author C, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2025)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+        <div class="pub-entry">
+          <span class="pub-entry__num">2</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">Second paper title goes here</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2025)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== 2024 ======== -->
+      <div class="pub-year-group">
+        <span class="pub-year-label">2024</span>
+        <div class="pub-entry">
+          <span class="pub-entry__num">3</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">Paper title goes here — 2024</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, Author B, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2024)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+        <div class="pub-entry">
+          <span class="pub-entry__num">4</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">Second 2024 paper title goes here</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, Author B, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2024)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+        <div class="pub-entry">
+          <span class="pub-entry__num">5</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">Third 2024 paper title goes here</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2024)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== 2023 ======== -->
+      <div class="pub-year-group">
+        <span class="pub-year-label">2023</span>
+        <div class="pub-entry">
+          <span class="pub-entry__num">6</span>
+          <div>
+            <p class="pub-entry__title">
+              <a href="#" target="_blank">2023 paper title goes here</a>
+            </p>
+            <p class="pub-entry__details">
+              Author A, Author B, V. Madhavan, <em>et al.</em> —
+              <em>Journal Name</em> <strong>Vol</strong>, pages (2023)
+              · <a href="#" style="color: var(--orange);">DOI</a>
+              · <a href="#" style="color: var(--gray-3);">arXiv</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== EARLIER YEARS ======== -->
+      <!-- Copy the pub-year-group block above for each additional year -->
+      <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--gray-2); text-align: center;">
+        <p style="color: var(--gray-3); font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 1rem;">
+          Continue adding years above — copy the pub-year-group block for each year
+        </p>
+        <a href="#" class="btn btn--outline">Full list on Google Scholar</a>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <p class="footer__brand-name">Madhavan Lab</p>
+        <p class="footer__brand-sub">University of Illinois Urbana-Champaign</p>
+        <p>Department of Physics<br>1110 W. Green Street<br>Urbana, IL 61801</p>
+        <p style="margin-top: 0.8rem;"><a href="mailto:madhavan@illinois.edu" style="color: var(--orange);">madhavan@illinois.edu</a></p>
+      </div>
+      <div>
+        <p class="footer__heading">Navigate</p>
+        <ul class="footer__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="lab.html">The Lab</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__heading">Affiliated With</p>
+        <ul class="footer__links">
+          <li><a href="https://physics.illinois.edu" target="_blank">UIUC Physics</a></li>
+          <li><a href="https://illinois.edu" target="_blank">University of Illinois</a></li>
+          <li><a href="https://iquist.illinois.edu" target="_blank">IQUIST</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="yr"></span> Madhavan Lab, University of Illinois Urbana-Champaign</p>
+      <p>Built with ♥ for science</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

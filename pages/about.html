@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Madhavan Lab</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../images/favicon.png" type="image/png" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__brand">
+      <span class="nav__brand-name">Madhavan Lab</span>
+      <span class="nav__brand-sub">University of Illinois Urbana-Champaign</span>
+    </a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="lab.html">The Lab</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <!-- HERO -->
+  <div class="page-hero">
+    <div class="container fade-up">
+      <span class="tag" style="border-color: rgba(255,255,255,0.3); color: rgba(255,255,255,0.7);">About</span>
+      <h1>About the Lab</h1>
+      <div class="divider"></div>
+      <p>Meet our PI, learn what scanning tunneling microscopy is, and discover what our instruments can reveal about quantum matter.</p>
+    </div>
+  </div>
+
+  <!-- PI SECTION -->
+  <section class="section">
+    <div class="container">
+      <span class="tag">Principal Investigator</span>
+      <h2>Prof. Vidya Madhavan</h2>
+      <div class="divider"></div>
+      <div class="pi-card">
+        <!-- Replace src with PI photo -->
+        <div class="img-placeholder pi-card__photo" style="height: 240px; width: 200px; border-radius: 3px;">
+          <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          PI Photo
+        </div>
+        <div>
+          <p class="pi-card__name">Prof. Vidya Madhavan</p>
+          <p class="pi-card__title">Professor, Department of Physics · University of Illinois Urbana-Champaign</p>
+          <p style="margin-bottom: 1rem;">
+            <!-- Replace with PI bio -->
+            Prof. Madhavan's research focuses on using scanning tunneling microscopy and
+            spectroscopy to understand the electronic properties of quantum materials at the
+            atomic scale. Her group has made important contributions to the understanding of
+            topological materials, strongly correlated electron systems, and unconventional
+            superconductors.
+          </p>
+          <p style="margin-bottom: 1rem;">
+            <!-- Add more bio details here -->
+            Add education, prior appointments, honors, and awards here.
+          </p>
+          <div class="pi-card__links">
+            <a href="mailto:madhavan@illinois.edu" class="btn btn--primary">Email</a>
+            <a href="#" class="btn btn--outline">Google Scholar</a>
+            <a href="#" class="btn btn--outline">CV</a>
+            <a href="https://physics.illinois.edu" target="_blank" class="btn btn--outline">Faculty Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IS STM -->
+  <section class="section section--gray">
+    <div class="container">
+      <span class="tag">The Technique</span>
+      <h2>What is Scanning Tunneling Microscopy?</h2>
+      <div class="divider"></div>
+      <div class="two-col" style="margin-bottom: 3rem;">
+        <div>
+          <p style="margin-bottom: 1.2rem;">
+            Scanning tunneling microscopy (STM) is a powerful technique for imaging surfaces
+            at the atomic scale. Invented in 1981 by Gerd Binnig and Heinrich Rohrer — for which
+            they received the Nobel Prize in Physics in 1986 — STM works by exploiting the
+            quantum mechanical phenomenon of electron tunneling.
+          </p>
+          <p style="margin-bottom: 1.2rem;">
+            A sharp metallic tip is brought within a few ångströms of a conducting surface.
+            When a bias voltage is applied, electrons tunnel through the vacuum gap between tip
+            and sample, generating a measurable current that is exquisitely sensitive to the
+            tip-surface distance and to the local electronic structure.
+          </p>
+          <p>
+            By scanning the tip across the surface and recording the tunneling current,
+            we can construct real-space images of the atomic landscape and map the local
+            density of electronic states — a technique called scanning tunneling spectroscopy (STS).
+          </p>
+        </div>
+        <div class="two-col__media">
+          <!-- Replace with an STM schematic or image -->
+          <div class="img-placeholder" style="height: 100%; min-height: 260px;">
+            <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            STM schematic diagram
+          </div>
+        </div>
+      </div>
+
+      <!-- STM CAPABILITY CARDS -->
+      <div class="stm-explainer">
+        <div class="stm-explainer__card">
+          <div class="stm-explainer__icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <h4>Atomic Resolution</h4>
+          <p>STM can resolve individual atoms on a surface, achieving spatial resolutions below 0.1 nm — revealing the true atomic structure of materials.</p>
+        </div>
+        <div class="stm-explainer__card">
+          <div class="stm-explainer__icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h4>Electronic Spectroscopy</h4>
+          <p>By measuring tunneling current as a function of voltage (dI/dV), we map the local density of states with meV energy resolution.</p>
+        </div>
+        <div class="stm-explainer__card">
+          <div class="stm-explainer__icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg>
+          </div>
+          <h4>Quasiparticle Interference</h4>
+          <p>Elastic scattering of electrons off impurities creates standing waves we can image and use to reconstruct the Fermi surface and band structure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STM ACHIEVES -->
+  <section class="section">
+    <div class="container">
+      <span class="tag">What STM Can Achieve</span>
+      <h2>Probing Quantum Phenomena at the Atomic Scale</h2>
+      <div class="divider"></div>
+      <div class="two-col two-col--reverse" style="margin-bottom: 4rem;">
+        <div>
+          <h3 style="color: var(--blue); margin-bottom: 1rem;">Topological Materials</h3>
+          <p style="margin-bottom: 1rem;">
+            STM can directly image the hallmark signatures of topological matter — surface states,
+            Dirac cones, Majorana-bound states — in real space and energy space simultaneously,
+            providing definitive evidence that bulk topological invariants predict surface phenomena.
+          </p>
+          <p>Replace this with your group's specific achievements and capabilities in this area.</p>
+        </div>
+        <div class="two-col__media">
+          <div class="img-placeholder" style="height: 100%; min-height: 240px;">STM image placeholder</div>
+        </div>
+      </div>
+      <div class="two-col" style="margin-bottom: 4rem;">
+        <div class="two-col__media">
+          <div class="img-placeholder" style="height: 100%; min-height: 240px;">STM image placeholder</div>
+        </div>
+        <div>
+          <h3 style="color: var(--blue); margin-bottom: 1rem;">Correlated Electron Systems</h3>
+          <p style="margin-bottom: 1rem;">
+            Strongly correlated materials host a rich array of collective quantum phases — Mott
+            insulators, charge-density waves, spin-density waves, heavy fermion behavior — all of
+            which leave characteristic fingerprints accessible to STM spectroscopy.
+          </p>
+          <p>Replace this with your group's specific capabilities and findings.</p>
+        </div>
+      </div>
+      <div class="two-col two-col--reverse">
+        <div>
+          <h3 style="color: var(--blue); margin-bottom: 1rem;">Unconventional Superconductivity</h3>
+          <p style="margin-bottom: 1rem;">
+            The superconducting gap, its momentum-space symmetry, and the quasiparticle
+            excitations within vortex cores are all directly accessible by low-temperature STS,
+            allowing us to test pairing mechanisms at the atomic level.
+          </p>
+          <p>Replace this with your group's specific capabilities and findings.</p>
+        </div>
+        <div class="two-col__media">
+          <div class="img-placeholder" style="height: 100%; min-height: 240px;">STM image placeholder</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <p class="footer__brand-name">Madhavan Lab</p>
+        <p class="footer__brand-sub">University of Illinois Urbana-Champaign</p>
+        <p>Department of Physics<br>1110 W. Green Street<br>Urbana, IL 61801</p>
+        <p style="margin-top: 0.8rem;"><a href="mailto:madhavan@illinois.edu" style="color: var(--orange);">madhavan@illinois.edu</a></p>
+      </div>
+      <div>
+        <p class="footer__heading">Navigate</p>
+        <ul class="footer__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="lab.html">The Lab</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__heading">Affiliated With</p>
+        <ul class="footer__links">
+          <li><a href="https://physics.illinois.edu" target="_blank">UIUC Physics</a></li>
+          <li><a href="https://illinois.edu" target="_blank">University of Illinois</a></li>
+          <li><a href="https://iquist.illinois.edu" target="_blank">IQUIST</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="yr"></span> Madhavan Lab, University of Illinois Urbana-Champaign</p>
+      <p>Built with ♥ for science</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
